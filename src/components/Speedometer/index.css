@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+  height: 125px;
+}
+
+.heading2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.para {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 8px;
+  height: 40px;
+  width: 140px;
+  margin-left: 12px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.acc-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+}
+
+.brake-button {
+  color: #94a3b8;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: 2px solid #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .img {
+    width: 700px;
+    height: 300px;
+  }
+  .heading2 {
+    font-size: 35px;
+  }
+  .para {
+    font-size: 15px;
+  }
+}
